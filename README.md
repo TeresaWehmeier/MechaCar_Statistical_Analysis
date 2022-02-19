@@ -60,5 +60,5 @@ Lot 2
 <img src="images/deliverable3_ttest_lot2.png" width="60%" height="30%">
 
 Lot 3
-<img src="images/deliverable3_ttest_lot3.png" width="40%" height="20%">
+<img src="images/deliverable3_ttest_lot3.png" width="60%" height="30%">
 
