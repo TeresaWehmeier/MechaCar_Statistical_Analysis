@@ -18,18 +18,32 @@ The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regressi
  * The r-squared value in the multiple regression model has a probability of ~71%, which suggests using this model will result in approximately 71% accurracy in prediciting MPG efficiency. 
 
 ## Summary Statistics on Suspension Coils
-The Suspension_Coil.csv file was read into R-Studio as a datatframe and RSript used to create a total_summary and lot_summary dataframe. The summarize() function was used to obtain mean, median, variance and sandard deviation from the suspension coil's PSI column for both summaries, and the group_by() function used to group by lots in the lot_summary dataframe. Below images show output results:
+The Suspension_Coil.csv file was read into R-Studio as a datatframe and RSript used to create a total_summary and lot_summary dataframe. The summarize() function was used to obtain mean, median, variance and standard deviation from the suspension coil's PSI column for both summaries, and the group_by() function used to group by manufacturing lots in the lot_summary dataframe. Below images show output results:
 
 ### Total Summary Results
 <img src='images/deliverable2_total_summary.png'>
 
-### Lot Summary Results
+### Manufacturing Lot Summary Results
 <img src='images/deliverable2_lot_summary.png'>
 
-### Deeper Dive: Box and Whisker Plot by Lot
+### Deeper Dive: Box and Whisker Plot by Manufacturing Lot
 <img src='images/deliverable2_box_whisker.png'>
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+#### Results:
+Total Summary
+1. The total summary indicates a normal distribution, with a mean of 1498.78 PSI and median of 1500
+2. Variance of 62.29 is within the allowed 100 pounds per square inch allowed.
+
+Lot Summary
+1. Lot 1 and 2 are both well within the allowed PSI variance of 100 PSI
+2. Lot 1 and 2 have a mean and median of 1500 PSI
+3. Lot 3 mean or median are below 1500 PSI
+4. Lot 3 variance is 170.29, and is outside the allowable range of 100 PSI
+
+Although the total summary statistics indicate the coils meet the PSI specifications, the manufacturing lot summary indicates a problem with lot 3, because the variance is outside the allowed manufacturer's specifications. When examining the box and whisker chart above, it is clear there are several observations in lot 3 data that are outliers, and the data suggests a need to investigate the coil manufacturing processes in this lot.
+
 
 
 
