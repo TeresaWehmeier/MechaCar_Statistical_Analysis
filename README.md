@@ -50,15 +50,15 @@ Using the suspension coil's dataframe, create a one-sample t-test of the data an
 ### T-Test Results
 
 #### One-sample T-Test
-<img src="images/deliverable3_step1.png">
+<img src="images/deliverable3_step1.png" width="40%" height="20%">
 
 #### T-Test by Subset ()
 Lot 1
-<img src="images/deliverable3_ttest_lot1.png">
+<img src="images/deliverable3_ttest_lot1.png" width="40%" height="20%">
 
 Lot 2
-<img src="images/deliverable3_ttest_lot2.png">
+<img src="images/deliverable3_ttest_lot2.png" width="40%" height="20%">
 
 Lot 3
-<img src="images/deliverable3_ttest_lot3.png">
+<img src="images/deliverable3_ttest_lot3.png" width="40%" height="20%">
 
