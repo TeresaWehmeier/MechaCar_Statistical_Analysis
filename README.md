@@ -34,13 +34,13 @@ The design specifications for the MechaCar suspension coils dictate that the var
 #### Results:
 Total Summary
 1. The total summary indicates a normal distribution, with a mean of 1498.78 PSI and median of 1500
-2. Variance of 62.29 is within the allowed 100 pounds per square inch allowed.
+2. Variance of 62.29 is within the allowed 100 pounds per square inch.
 
 Lot Summary
-1. Lot 1 and 2 are both well within the allowed PSI variance of 100 PSI
+1. Lot 1 and 2 are both within the allowed PSI variance of 100 PSI
 2. Lot 1 and 2 have a mean and median of 1500 PSI
-3. Lot 3 mean or median are below 1500 PSI
-4. Lot 3 variance is 170.29, and is outside the allowable range of 100 PSI
+3. Lot 3 mean and median are below 1500 PSI
+4. Lot 3 variance is 170.29, and is outside the allowable range of 100 PSI manufacturer specification
 
 Although the total summary statistics indicate the coils meet the PSI specifications, the manufacturing lot summary indicates a problem with lot 3, because the variance is outside the allowed manufacturer's specifications. When examining the box and whisker chart above, it is clear there are several observations in lot 3 data that are outliers, and the data suggests a need to investigate the coil manufacturing processes in this lot.
 
