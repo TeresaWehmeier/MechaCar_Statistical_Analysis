@@ -15,7 +15,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + AWD + ground_
 ## Deliverable 2
 
 # step 2 - read in Suspension_Coil.csv
-suspension_coil <- read.csv('Suspension_Coil.csv',check.names = F, stringsAsFactors = F)
+suspension_coil <- read.csv('C:/Users/Teresa/Class/MechaCar_Statistical_Analysis/R_Analysis/Suspension_Coil.csv',check.names = F, stringsAsFactors = F)
 
 # step 3 - create a total_summary dataframe using the summarize() function to get mean, median, variance, and SD of suspension coils PSI Column
 total_summary <- suspension_coil %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep')
@@ -24,9 +24,11 @@ total_summary <- suspension_coil %>% summarize(Mean=mean(PSI), Median=median(PSI
 # step 4 create lot_summary dataframe using group_by() and summarize() functions to group by lot
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep')
 
+library(tidyverse)
+
+
 ## Deliverable 3 t-test
 # Step 1 - perform a t-test.
-library(tidyverse)
 t.test(suspension_coil$PSI,mu=1500)
 
 lot1 <- t.test(suspension_coil$PSI,suspension_coil$Manufacturing_Lot=='Lot1',mu=1500)
