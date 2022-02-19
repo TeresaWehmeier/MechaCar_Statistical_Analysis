@@ -31,10 +31,12 @@ library(tidyverse)
 # Step 1 - perform a t-test.
 t.test(suspension_coil$PSI,mu=1500)
 
-lot1 <- t.test(suspension_coil$PSI,suspension_coil$Manufacturing_Lot=='Lot1',mu=1500)
-lot2 <- t.test(suspension_coil$PSI,suspension_coil$Manufacturing_Lot=='Lot2',mu=1500)
-lot3 <- t.test(suspension_coil$PSI,suspension_coil$Manufacturing_Lot=='Lot3',mu=1500)
+# step 2 - perform t-test by lot
+t.test(suspension_coil$PSI,suspension_coil$Manufacturing_Lot=='Lot1',mu=1500)
+t.test(suspension_coil$PSI,suspension_coil$Manufacturing_Lot=='Lot2',mu=1500)
+t.test(suspension_coil$PSI,suspension_coil$Manufacturing_Lot=='Lot3',mu=1500)
 
+## deeper dive - create box and whisker plot by lot
 ggplot(suspension_coil, aes(Manufacturing_Lot, PSI)) +
   geom_boxplot()
 
