@@ -6,7 +6,7 @@ The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regressi
 
 <img src="images/delivery1_step5.png" width='80%' height='40%'>
 
-<img src="images/delivery1_step6.png" width='60%' height='40%'>
+<img src="images/delivery1_step6.png">
 
 1. Which variables/ coefficients provided a non-random amount of variance to the MPG values in the dataset?
   * Vehicle length and vehicle ground clearance are likely to provide non-random amounts of variance to the model. The vehicle length and vehicle ground clearance have a statistically significant impact on miles per gallon on the MechaCar prototype. Vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance in the dataset.
