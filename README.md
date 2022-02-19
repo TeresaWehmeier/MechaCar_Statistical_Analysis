@@ -44,7 +44,21 @@ Lot Summary
 
 Although the total summary statistics indicate the coils meet the PSI specifications, the manufacturing lot summary indicates a problem with lot 3, because the variance is outside the allowed manufacturer's specifications. When examining the box and whisker chart above, it is clear there are several observations in lot 3 data that are outliers, and the data suggests a need to investigate the coil manufacturing processes in this lot.
 
+## T-Tests on Suspension Coils
+Using the suspension coil's dataframe, create a one-sample t-test of the data and then three more by lot subset to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 PSI.
 
+### T-Test Results
 
+#### One-sample T-Test
+<img src="images/deliverable3_step1.png">
 
+#### T-Test by Subset ()
+Lot 1
+<img src="images/deliverable3_ttest_lot1.png">
+
+Lot 2
+<img src="images/deliverable3_ttest_lot2.png">
+
+Lot 3
+<img src="images/deliverable3_ttest_lot3.png">
 
