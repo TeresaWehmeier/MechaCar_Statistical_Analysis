@@ -4,7 +4,9 @@
 
 The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regression using the lm() function was passed to all six variables in the dataframe. Finally, the summary() function was used to determine p-Value and r-squared values for the linear regression model. The results are shown in the images below:
 
-<img src="images/delivery1_step5.png" width='40%' height='20%'>
+<img src="images/delivery1_step5.png" width='60%' height='30%'>
+
+<img src="images/delivery1_step6.png" width='50%' height='30%'>
 
 
 
