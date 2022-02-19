@@ -18,7 +18,19 @@ The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regressi
  * The r-squared value in the multiple regression model has a probability of ~71%, which suggests using this model will result in approximately 71% accurracy in prediciting MPG efficiency. 
 
 ## Summary Statistics on Suspension Coils
+The Suspension_Coil.csv file was read into R-Studio as a datatframe and RSript used to create a total_summary and lot_summary dataframe. The summarize() function was used to obtain mean, median, variance and sandard deviation from the suspension coil's PSI column for both summaries, and the group_by() function used to group by lots in the lot_summary dataframe. Below images show output results:
 
-Short summary to address:
+### Total Summary Results
+<img src='images/deliverable2_total_summary.png'>
+
+### Lot Summary Results
+<img src='images/deliverable2_lot_summary.png'>
+
+### Deeper Dive: Box and Wisker Plot by Lot
+<img src='images/deliverable2_lot_summary.png'>
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
 
 
