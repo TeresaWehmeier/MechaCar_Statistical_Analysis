@@ -83,7 +83,7 @@ This statistical study will examine how MechaCar's highway fuel efficiency and s
 * Null hypothesis: safety ratings and fuel economy have an impact on selling price
 * Alternative hypothesis: safety ratings and fuel economy have no impact on selling price
 
-### Testing the Hypothesis
+#### Testing the Hypothesis
 
 
 
