@@ -72,19 +72,25 @@ Lot 3
 Design a statistical study that can quantify how MechaCar performs against the competition. Identify one or more metrics of interest to consumers.
 
 ### Study
-This statistical study will examine how MechaCar's highway fuel efficiency and safety ratings compare to similar competitor's models and whether these two metrics have an impact on selling price. Consumers are interested in economy and safety when purchasing a vehicle, and quantifying these metrics may aid in targeting buyer populations. Data will need to include a sample of vehicle models similar to MechCar's model, with a mininum sample of 30 observations.
+This statistical study will examine how MechaCar's highway fuel efficiency, maintenance costs and safety ratings compare to similar competitor's models and whether these three metrics have an impact on selling price. Consumers are interested in economy and safety when purchasing a vehicle, and quantifying these metrics may aid in targeting buyer populations. 
 
 #### Metrics
 * Selling price as a dependent variable
 * Safety rating as an independent variable
-* Miles per Gallon (MPG) as a independent variable
+* Maintenance cost as an independent variable
+* Miles per Gallon (MPG) as an independent variable
 
 #### Hypothoses (Null and Alternative)
-* Null hypothesis: safety ratings and fuel economy have an impact on selling price
-* Alternative hypothesis: safety ratings and fuel economy have no impact on selling price
+* Null hypothesis: safety ratings, maintenance costs and fuel economy have a significant impact on selling price
+* Alternative hypothesis: safety ratings, maintenance costs and fuel economy have no significant impact on selling price
 
 #### Testing the Hypothesis
+Using a multiple linear regression model, determine how variance in selling price is related to the three independent variables: safety ratings, maintenance costs and fuel economy in combination and individually.
 
+#### Required Data
+Data will include
+* A sampling of vehicle models similar to MechCar's model, with a mininum sample of 30 observations
+* Each observation must include a result for each of the three independent variables
 
 
 
