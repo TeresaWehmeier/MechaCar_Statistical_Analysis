@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG (D1)
 
-The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regression using the lm() function was passed to all six variables in the dataframe. Finally, the summary() function was used to determine p-Value and r-squared values for the linear regression model. The scripts are available in the R-Script file <a href='R_Analysis/.Rhistory'>here</a>, and the results are shown in the images below:
+The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regression using the lm() function was passed to all six variables in the dataframe. Finally, the summary() function was used to determine p-Value and r-squared values for the linear regression model. The scripts are available in the R-Script file <a href='MechaCarChallenge.R'>here</a>, and the results are shown in the images below:
 
 <img src="images/delivery1_step5.png" width='80%' height='40%'>
 
