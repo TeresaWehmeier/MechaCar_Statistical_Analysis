@@ -66,5 +66,5 @@ Lot 3
 1. The mean of the sample is 1498.78 with a p-Value of 0.06, which is higher than the normal significance level of 0.05. There is not enough evidence to reject the null hypothesis. The mean of all manufacturing lots is statistically similar to the population mean of 1500.
 2. The mean for manufacturing lot 1 is 1500 with a p-Value of 1. There is no statistical difference between the observed sample mean and the population mean (1500), and the null hypothisis cannot be rejected.
 3. The mean for manufacturing lot 2 is 1500 with a p-Value of 0.6072. There is no statistical difference between the observed sample mean and the population mean (1500), and the null hypothisis cannot be rejected.
-4. The mean for manufacturing lot 3 is 1496.14 with a p-Value of 0.04168, or below the normal significance level of 0.05. The results mean we reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
+4. The mean for manufacturing lot 3 is 1496.14 with a p-Value of 0.04168, or below the normal significance level of 0.05. There is enough evidence to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 
