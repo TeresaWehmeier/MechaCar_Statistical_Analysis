@@ -1,6 +1,6 @@
 # MechaCar Statistical Analysis
 
-## Linear Regression to Predict MPG
+## Linear Regression to Predict MPG (D1)
 
 The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regression using the lm() function was passed to all six variables in the dataframe. Finally, the summary() function was used to determine p-Value and r-squared values for the linear regression model. The scripts are available in the R-Script file <a href='R_Analysis/.Rhistory'>here</a>, and the results are shown in the images below:
 
@@ -17,7 +17,7 @@ The MechaCar_mpg.csv file was read into R-Studio as a dataframe. Linear regressi
 3. Does this linear model predict MPG of MechaCar prototypes effetively? Why or why not?
  * The r-squared value in the multiple regression model has a probability of ~71%, which suggests using this model will result in approximately 71% accurracy in prediciting MPG efficiency. 
 
-## Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils (D2)
 The Suspension_Coil.csv file was read into R-Studio as a datatframe and RSript used to create a total_summary and lot_summary dataframe. The summarize() function was used to obtain mean, median, variance and standard deviation from the suspension coil's PSI column for both summaries, and the group_by() function used to group by manufacturing lots in the lot_summary dataframe. Below images show output results:
 
 ### Total Summary Results
@@ -44,7 +44,7 @@ Lot Summary
 
 Although the total summary statistics indicate the coils meet the PSI specifications, the manufacturing lot summary indicates a problem with lot 3, because the variance is outside the allowed manufacturer's specifications. When examining the box and whisker chart above, it is clear there are several observations in lot 3 data that are outliers, and the data suggests a need to investigate the coil manufacturing processes in this lot.
 
-## T-Tests on Suspension Coils
+## T-Tests on Suspension Coils (D3)
 Using the suspension coil's dataframe, create a one-sample t-test of the data and then three more by lot subset to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 PSI.
 
 ### T-Test Results
@@ -66,5 +66,8 @@ Lot 3
 1. The mean of the sample is 1498.78 with a p-Value of 0.06, which is higher than the normal significance level of 0.05. There is not enough evidence to reject the null hypothesis. The mean of all manufacturing lots is statistically similar to the population mean of 1500.
 2. The mean for manufacturing lot 1 is 1500 with a p-Value of 1. There is no statistical difference between the observed sample mean and the population mean (1500), and the null hypothisis cannot be rejected.
 3. The mean for manufacturing lot 2 is 1500 with a p-Value of 0.6072. There is no statistical difference between the observed sample mean and the population mean (1500), and the null hypothisis cannot be rejected.
-4. The mean for manufacturing lot 3 is 1496.14 with a p-Value of 0.04168, or below the normal significance level of 0.05. There is enough evidence to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
+4. The mean for manufacturing lot 3 is 1496.14 with a p-Value of 0.04168, which is below the normal significance level of 0.05. There is enough evidence to reject the null hypothesis that this sample mean and the population mean are not statistically different.
+
+## Study Design: MechaCar vs Competition (D4)
+Design a statistical study that can quantify how MechaCar performs against the competition. Identify one or more metrics of interest to consumers.
 
