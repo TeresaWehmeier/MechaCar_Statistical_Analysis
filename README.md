@@ -89,7 +89,7 @@ Using a multiple linear regression model, determine how variance in selling pric
 
 #### Required Data
 Data will include
-* A sampling of vehicle models similar to MechCar's model, with a mininum sample of 30 observations
+* A sampling of vehicle models similar to MechaCar's model, with a mininum sample of 30 observations
 * Each observation must include a result for each of the three independent variables
 
 
